@@ -135,3 +135,15 @@ nav {
 nav a:hover {
   opacity: 0.7;
 }
+blockquote {
+  font-size: 22px;
+  font-style: italic;
+  max-width: 800px;
+  margin: 30px 0;
+  padding-left: 25px;
+  border-left: 4px solid #222;
+}
+
+#testimonial p {
+  font-weight: bold;
+}
