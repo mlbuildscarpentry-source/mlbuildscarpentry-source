@@ -212,7 +212,12 @@ blockquote {
     height: 240px;
   }
   .logo {
-  height: 35px;
+  height: 30px;
   width: auto;
+  object-fit: contain;
+    nav img {
+  max-height: 30px;
+  width: auto;
+}
 }
 }
