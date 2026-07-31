@@ -211,13 +211,16 @@ blockquote {
   .project-card img {
     height: 240px;
   }
-  .logo {
-  height: 30px;
+}
+
+/* Logo */
+.logo {
+  height: 35px;
   width: auto;
   object-fit: contain;
-    nav img {
-  max-height: 30px;
+}
+
+nav img {
+  max-height: 35px;
   width: auto;
-}
-}
 }
