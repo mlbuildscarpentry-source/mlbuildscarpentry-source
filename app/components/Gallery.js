@@ -1,19 +1,19 @@
 const projects = [
   {
     image: "/images/hero.jpg",
-    title: "Custom Build",
+    title: "Custom Feature Wall",
   },
   {
     image: "/images/IMG_4251.JPG",
-    title: "Custom Deck",
+    title: "Custom Deck/Stairs",
   },
   {
     image: "/images/IMG_6562.JPG",
-    title: "Deck Expansion",
+    title: "Roof Restoration",
   },
   {
     image: "/images/IMG_4370.JPG",
-    title: "Exterior Carpentry",
+    title: "Privacy Fence",
   },
 ];
 
