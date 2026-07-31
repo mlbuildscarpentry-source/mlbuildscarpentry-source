@@ -22,11 +22,12 @@ export default function Gallery() {
     <div className="gallery-grid">
       {projects.map((project) => (
         <figure className="project-card" key={project.image}>
-          <img src={project.image} alt={project.title} />
-
-          <figcaption>
-            <h3>{project.title}</h3>
-          </figcaption>
+          <div className="project-image-wrap">
+            <img src={project.image} alt={project.title} />
+            <div className="project-label">
+              <h3>{project.title}</h3>
+            </div>
+          </div>
         </figure>
       ))}
     </div>
