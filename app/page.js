@@ -1,46 +1,42 @@
 export default function Home() {
-  return (
-    <main>
-      <section className="hero">
-        <h1>Custom Carpentry Built With Skill & Precision</h1>
-        <p>
-          MLBUILDS specializes in custom decks, renovations, framing and
-          exterior carpentry throughout Ottawa and surrounding areas.
-        </p>
+  return (
+    <main>
+      <section className="hero">
+        <h1>MLBUILDS Carpentry</h1>
+        <h2>Built with skill. Made to last.</h2>
 
-        <a href="#contact">Request a Quote</a>
-      </section>
+        <p>
+          Custom decks, renovations, framing, and exterior carpentry
+          services in Ottawa and surrounding areas.
+        </p>
 
-      <section>
-        <h2>Our Services</h2>
+        <a href="#contact">Request a Quote</a>
+      </section>
 
-        <div>
-          <h3>Custom Decks</h3>
-          <p>
-            Cedar, pressure treated, composite and elevated decks built to last.
-          </p>
+      <section>
+        <h2>Our Services</h2>
+        <ul>
+          <li>Custom Decks</li>
+          <li>Fences & Pergolas</li>
+          <li>Home Renovations</li>
+          <li>Framing & Structural Work</li>
+          <li>Garages & Exterior Projects</li>
+        </ul>
+      </section>
 
-          <h3>Renovations</h3>
-          <p>
-            Quality renovations and carpentry projects with attention to detail.
-          </p>
+      <section>
+        <h2>Why Choose MLBUILDS?</h2>
+        <p>
+          Quality craftsmanship, attention to detail, and a commitment
+          to building projects that last.
+        </p>
+      </section>
 
-          <h3>Framing</h3>
-          <p>
-            Structural framing, additions, garages and custom builds.
-          </p>
-
-          <h3>Exterior Carpentry</h3>
-          <p>
-            Fences, pergolas, siding, stairs and outdoor structures.
-          </p>
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2>Contact MLBUILDS</h2>
-        <p>Call 819-209-2541 for a quote.</p>
-      </section>
-    </main>
-  );
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Phone: 819-209-2541</p>
+        <p>Serving Ottawa and surrounding areas</p>
+      </section>
+    </main>
+  );
 }
