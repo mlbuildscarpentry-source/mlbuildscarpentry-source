@@ -1,22 +1,29 @@
 export default function ContactForm() {
   return (
-    <form className="contact-form">
+    <form
+      className="contact-form"
+      action="https://formspree.io/f/mnjekapn"
+      method="POST"
+    >
       <input
         type="text"
-        placeholder="Your Name"
         name="name"
+        placeholder="Your Name"
+        required
       />
 
       <input
         type="tel"
-        placeholder="Phone Number"
         name="phone"
+        placeholder="Phone Number"
+        required
       />
 
       <input
         type="email"
-        placeholder="Email Address"
         name="email"
+        placeholder="Email Address"
+        required
       />
 
       <select name="project">
@@ -31,8 +38,8 @@ export default function ContactForm() {
       </select>
 
       <textarea
-        placeholder="Tell us about your project"
         name="message"
+        placeholder="Tell us about your project"
         rows="5"
       />
 
