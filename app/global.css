@@ -90,3 +90,38 @@ p {
     font-size: 30px;
   }
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav strong {
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+nav div:last-child {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  background: none;
+  color: #222;
+  padding: 0;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav div:last-child {
+    gap: 15px;
+  }
+}
