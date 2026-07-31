@@ -1,3 +1,4 @@
+import Gallery from "../components/Gallery";
 export default function Home() {
   return (
     <main>
@@ -45,10 +46,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section id="projects">
-        <h2>Featured Projects</h2>
-        <p>Project gallery coming soon.</p>
-      </section>
+      <Gallery />
 
       <section id="contact">
         <h2>Start Your Project</h2>
