@@ -147,3 +147,30 @@ blockquote {
 #testimonial p {
   font-weight: bold;
 }
+.contact-form {
+  max-width: 600px;
+  display: grid;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.contact-form button {
+  background: #111;
+  color: white;
+  padding: 15px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  opacity: 0.8;
+}
