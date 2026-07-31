@@ -1,4 +1,4 @@
-import "./globals.css?x";
+import "./globals.css";
 
 export const metadata = {
   title: "MLBUILDS Carpentry | Ottawa Custom Carpentry",
