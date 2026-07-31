@@ -6,7 +6,7 @@ export default function Navbar() {
   src="/images/mlbuildslogo.png"
   alt="MLBUILDS Carpentry"
   className="logo"
-  style={{ height: "35px", width: "auto" }}
+  style={{ height: "55px", width: "auto" }}
 />
       </div>
 
