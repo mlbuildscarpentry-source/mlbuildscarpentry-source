@@ -54,32 +54,33 @@ export default function Home() {
         <div className="hero-overlay" />
 
         <div className="hero-inner">
-          <p className="eyebrow">
-            Red Seal Carpenter · Ottawa & Surrounding Areas
-          </p>
+  <p className="eyebrow">
+    RED SEAL CARPENTER • DECKS • GARAGES • RENOVATIONS • OTTAWA
+  </p>
 
-          <h1>
-            Custom Carpentry
-            <br />
-            Built to Last.
-          </h1>
+  <h1>
+    Quality Craftsmanship
+    <br />
+    That Speaks for Itself.
+  </h1>
 
-          <p className="hero-copy">
-            Custom decks, garages, framing, renovations, exterior carpentry,
-            and interior finishing completed with skill, care, and attention to
-            detail.
-          </p>
+  <p className="hero-copy">
+    From custom decks and garages to renovations, framing,
+    exterior carpentry, and interior finishing, MLBUILDS delivers
+    exceptional workmanship with attention to detail, honest
+    communication, and results built to last.
+  </p>
 
-          <div className="hero-actions">
-            <a href="#contact" className="button button-primary">
-              Request a Free Quote
-            </a>
+  <div className="hero-actions">
+    <a href="#contact" className="button button-primary">
+      Get a Free Quote
+    </a>
 
-            <a href="#projects" className="button button-secondary">
-              View Our Work
-            </a>
-          </div>
-        </div>
+    <a href="#projects" className="button button-secondary">
+      View Our Work
+    </a>
+  </div>
+</div>
       </section>
 
       <section className="trust-strip" aria-label="Why choose MLBUILDS">
