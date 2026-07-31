@@ -1,20 +1,22 @@
 export default function Navbar() {
   return (
     <nav>
-      <div>
+      <a href="/">
         <img
-  src="/images/mlbuildslogo.png"
-  alt="MLBUILDS Carpentry"
-  className="logo"
-  style={{ height: "90px", width: "auto" }}
-/>
-      </div>
+          src="/images/mlbuildslogo.png"
+          alt="MLBUILDS Carpentry"
+          className="logo"
+        />
+      </a>
 
-      <div>
+      <div className="nav-links">
         <a href="/">Home</a>
         <a href="#services">Services</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#contact" className="quote-button">
+          Free Quote
+        </a>
       </div>
     </nav>
   );
