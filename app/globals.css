@@ -524,4 +524,37 @@ height:48px;
 
 }
 
+/* ---------- NAV BUTTON ---------- */
+
+.nav-links{
+display:flex;
+align-items:center;
+gap:35px;
+}
+
+.quote-button{
+background:#b97d45;
+padding:12px 24px;
+border-radius:6px;
+color:white !important;
+transition:.3s;
+}
+
+.quote-button:hover{
+background:#8b5c34;
+transform:translateY(-2px);
+}
+
+@media(max-width:700px){
+
+.nav-links{
+flex-direction:column;
+gap:18px;
+}
+
+.quote-button{
+width:100%;
+text-align:center;
+}
+
 }
