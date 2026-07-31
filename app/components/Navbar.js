@@ -2,7 +2,11 @@ export default function Navbar() {
   return (
     <nav>
       <div>
-        <strong>MLBUILDS</strong>
+        <img 
+  src="/images/mlbuildslogo.png" 
+  alt="MLBUILDS Carpentry" 
+  className="logo"
+/>
       </div>
 
       <div>
