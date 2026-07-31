@@ -2,10 +2,11 @@ export default function Navbar() {
   return (
     <nav>
       <div>
-        <img 
-  src="/images/mlbuildslogo.png" 
-  alt="MLBUILDS Carpentry" 
+        <img
+  src="/images/mlbuildslogo.png"
+  alt="MLBUILDS Carpentry"
   className="logo"
+  style={{ height: "35px", width: "auto" }}
 />
       </div>
 
