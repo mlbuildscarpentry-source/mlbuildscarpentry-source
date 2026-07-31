@@ -1,11 +1,11 @@
 const projects = [
   {
     image: "/images/hero.jpg",
-    title: "Custom Feature Wall",
+    title: "Custom Build",
   },
   {
     image: "/images/IMG_4251.JPG",
-    title: "Custom Deck/Stairs",
+    title: "Custom Deck",
   },
   {
     image: "/images/IMG_6562.JPG",
@@ -13,7 +13,7 @@ const projects = [
   },
   {
     image: "/images/IMG_4370.JPG",
-    title: "Privacy Fence",
+    title: "Exterior Carpentry",
   },
 ];
 
@@ -24,6 +24,7 @@ export default function Gallery() {
         <figure className="project-card" key={project.image}>
           <div className="project-image-wrap">
             <img src={project.image} alt={project.title} />
+
             <div className="project-label">
               <h3>{project.title}</h3>
             </div>
