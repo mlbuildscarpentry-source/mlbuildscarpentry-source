@@ -37,14 +37,33 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        <h2>About MLBUILDS</h2>
-        <p>
-          MLBUILDS Carpentry provides professional craftsmanship backed by
-          experience, attention to detail, and a commitment to quality.
-          Every project is built with pride and made to last.
-        </p>
-      </section>
+      <section id="about">
+  <h2>About MLBUILDS</h2>
+
+  <p>
+    MLBUILDS Carpentry is a locally owned carpentry company serving Ottawa
+    and surrounding areas. As a Red Seal Carpenter, we bring professional
+    experience, attention to detail, and pride in every project we build.
+  </p>
+
+  <p>
+    From custom decks and exterior structures to renovations, framing,
+    garages, and interior finishing, our goal is simple:
+    deliver quality craftsmanship that is built to last.
+  </p>
+</section>
+
+<section id="testimonial">
+  <h2>What Our Clients Say</h2>
+
+  <blockquote>
+    “Marcel built our deck expansion and we are more than thrilled with the
+    finished product. His attention to details is remarkable!
+    We highly recommend MLBUILDS for any projects. You will not be disappointed!”
+  </blockquote>
+
+  <p>— Client Testimonial</p>
+</section>
 
       <Gallery />
 
