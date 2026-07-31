@@ -6,7 +6,7 @@ export default function Home() {
         <h2>Built with skill. Made to last.</h2>
 
         <p>
-          Custom decks, renovations, framing, and exterior carpentry
+          Custom decks, renovations, framing, exterior and interior finishing and custom builds
           services in Ottawa and surrounding areas.
         </p>
 
