@@ -1,3 +1,4 @@
+import ContactForm from "./components/ContactForm";
 import Gallery from "./components/Gallery";
 export default function Home() {
   return (
@@ -68,10 +69,16 @@ export default function Home() {
       <Gallery />
 
       <section id="contact">
-        <h2>Start Your Project</h2>
-        <p>Call or message us today for a free consultation.</p>
-        <p>819-209-2541</p>
-      </section>
+  <h2>Start Your Project</h2>
+
+  <p>
+    Tell us about your project and we’ll get back to you.
+  </p>
+
+  <p>819-209-2541</p>
+
+  <ContactForm />
+</section>
     </main>
   );
 }
