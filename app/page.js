@@ -12,7 +12,7 @@ export default function Home() {
         <a href="#contact">Request a Quote</a>
       </section>
 
-      <section>
+      <section id="services">
         <h2>Our Services</h2>
 
         <div>
@@ -45,7 +45,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section>
+      <section id="projects">
         <h2>Featured Projects</h2>
         <p>Project gallery coming soon.</p>
       </section>
