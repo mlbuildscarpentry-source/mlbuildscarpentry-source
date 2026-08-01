@@ -1,3 +1,4 @@
+import { FaInstagram, FaFacebook, FaGoogle } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="footer">
@@ -45,29 +46,29 @@ export default function Footer() {
         <div className="footer-column">
           <h3>Follow Us</h3>
 
-          <a
-            href="https://www.instagram.com/mlbuildscarpentry"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            📷 Instagram
-          </a>
+<a
+  href="https://www.instagram.com/mlbuildscarpentry"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <FaInstagram /> Instagram
+</a>
 
-         <a
+<a
   href="https://www.facebook.com/profile.php?id=61572682347568"
   target="_blank"
   rel="noopener noreferrer"
 >
-  👍 Facebook
+  <FaFacebook /> Facebook
 </a>
 
-          <a
-            href="https://www.google.com/search?q=MLBUILDS+Carpentry"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ⭐ Google Business
-          </a>
+<a
+  href="YOUR GOOGLE BUSINESS LINK"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <FaGoogle /> Google Reviews
+</a>
         </div>
 
       </div>
