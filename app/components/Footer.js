@@ -44,35 +44,35 @@ export default function Footer() {
         </div>
 
         <div className="footer-column">
-          <h3>Follow Us</h3>
+  <h4>Follow Us</h4>
 
-<a
-  href="https://www.instagram.com/mlbuildscarpentry"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <img src="/icons/instagram.svg" alt="Instagram" className="social-icon" />
-  Instagram
-</a>
+  <a
+    href="https://www.facebook.com/profile.php?id=61572682347568"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="/images/icons/facebook.png" alt="Facebook" width="22" height="22" />
+    Facebook
+  </a>
 
-<a
-  href="https://www.facebook.com/profile.php?id=61572682347568"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <img src="/icons/facebook.svg" alt="Facebook" className="social-icon" />
-  Facebook
-</a>
+  <a
+    href="https://www.instagram.com/mlbuildscarpentry"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="/images/icons/instagram.png" alt="Instagram" width="22" height="22" />
+    Instagram
+  </a>
 
-<a
-  href="YOUR GOOGLE BUSINESS LINK"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <img src="/icons/google.svg" alt="Google Reviews" className="social-icon" />
-  Google Reviews
-</a>
-        </div>
+  <a
+    href="https://g.page/r/YOUR_GOOGLE_REVIEW_LINK"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="/images/icons/google.png" alt="Google Reviews" width="22" height="22" />
+    Google Reviews
+  </a>
+</div>
 
       </div>
 
