@@ -64,7 +64,7 @@ export default function Footer() {
   </a>
 
   <a
-    href="https://g.page/r/YOUR_GOOGLE_REVIEW_LINK"
+    href="https://g.page/r/CTPxY7iRNEeREBM/review"
     target="_blank"
     rel="noopener noreferrer"
   >
