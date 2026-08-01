@@ -1017,3 +1017,20 @@ RESPONSIVE
   color: #888;
   font-size: .9rem;
 }
+.footer-column a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  color: #d6d6d6;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.footer-column a:hover {
+  color: #c67b52;
+}
+
+.footer-column svg {
+  font-size: 20px;
+}
