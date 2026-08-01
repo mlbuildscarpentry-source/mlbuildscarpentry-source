@@ -324,25 +324,6 @@ export default function Home() {
 
       <Footer />
 
-      {/* FLOATING BUTTONS */}
-
-      <div className="floating-actions">
-
-        <a
-          href="tel:+18192092541"
-          className="floating-call"
-        >
-          📞 Call Now
-        </a>
-
-        <a
-          href="#contact"
-          className="floating-quote"
-        >
-          ✏️ Free Quote
-        </a>
-
-      </div>
     </main>
   );
 }
