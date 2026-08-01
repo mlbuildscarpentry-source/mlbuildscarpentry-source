@@ -2,25 +2,48 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 
 export const metadata = {
-  title:
-    "MLBUILDS Carpentry | Red Seal Carpenter | Decks, Garages & Renovations in Ottawa",
+  title: "MLBUILDS Carpentry | Deck Builder, Garages & Renovations Ottawa",
 
   description:
-    "MLBUILDS Carpentry is a Red Seal Carpenter serving Ottawa, Orleans, Clarence-Rockland, Russell, Embrun and surrounding areas. We specialize in custom decks, garages, framing, renovations, exterior carpentry and interior finishing.",
+    "MLBUILDS Carpentry provides custom decks, garages, framing, renovations, siding, fences, and interior finishing in Ottawa and surrounding areas. Red Seal Carpenter. Fully insured. Free estimates.",
 
   keywords: [
-    "Ottawa Carpenter",
-    "Red Seal Carpenter",
-    "Deck Builder Ottawa",
-    "Custom Decks Ottawa",
-    "Garage Builder Ottawa",
-    "Framing Contractor Ottawa",
-    "Renovation Contractor Ottawa",
-    "Exterior Carpentry Ottawa",
-    "Interior Finishing Ottawa",
-    "Pergolas Ottawa",
-    "Fence Builder Ottawa",
+    "Ottawa carpenter",
+    "Deck builder Ottawa",
+    "Garage builder Ottawa",
+    "Custom decks Ottawa",
+    "Renovations Ottawa",
+    "Framing contractor Ottawa",
+    "Exterior carpentry Ottawa",
+    "Interior finishing Ottawa",
+    "Fence builder Ottawa",
+    "Pergola builder Ottawa",
+    "MLBUILDS"
   ],
+
+  authors: [{ name: "MLBUILDS Carpentry" }],
+
+  openGraph: {
+    title: "MLBUILDS Carpentry",
+    description:
+      "Quality craftsmanship that speaks for itself.",
+    url: "https://mlbuildscarpentry.ca",
+    siteName: "MLBUILDS Carpentry",
+    images: [
+      {
+        url: "/images/hero.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_CA",
+    type: "website",
+  },
+
+  icons: {
+    icon: "/icon.png",
+  },
+};
 
   verification: {
     google: "HgxnCxDEBu1wLgAlhIl1kzQ0t2Ve0fRrqrAgyfCknMc",
