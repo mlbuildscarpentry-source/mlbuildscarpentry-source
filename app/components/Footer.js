@@ -51,7 +51,8 @@ export default function Footer() {
   target="_blank"
   rel="noopener noreferrer"
 >
-  <FaInstagram /> Instagram
+  <img src="/icons/instagram.svg" alt="Instagram" className="social-icon" />
+  Instagram
 </a>
 
 <a
@@ -59,7 +60,8 @@ export default function Footer() {
   target="_blank"
   rel="noopener noreferrer"
 >
-  <FaFacebook /> Facebook
+  <img src="/icons/facebook.svg" alt="Facebook" className="social-icon" />
+  Facebook
 </a>
 
 <a
@@ -67,7 +69,8 @@ export default function Footer() {
   target="_blank"
   rel="noopener noreferrer"
 >
-  <FaGoogle /> Google Reviews
+  <img src="/icons/google.svg" alt="Google Reviews" className="social-icon" />
+  Google Reviews
 </a>
         </div>
 
