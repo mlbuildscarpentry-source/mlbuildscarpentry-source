@@ -1,31 +1,35 @@
 export default function Footer() {
   return (
     <footer className="footer">
+
       <div className="footer-container">
 
         <div className="footer-column">
-          <h3>MLBUILDS Carpentry</h3>
+          <img
+            src="/images/mlbuildslogo.png"
+            alt="MLBUILDS Carpentry"
+            className="footer-logo"
+          />
+
           <p>
-            Red Seal Carpenter providing custom decks, garages,
-            renovations, framing, exterior carpentry, and interior
-            finishing throughout Ottawa and surrounding areas.
+            Quality craftsmanship that speaks for itself.
+            Proudly serving Ottawa and surrounding areas.
           </p>
         </div>
 
         <div className="footer-column">
-          <h4>Services</h4>
-          <ul>
-            <li>Custom Decks</li>
-            <li>Garages</li>
-            <li>Renovations</li>
-            <li>Framing</li>
-            <li>Exterior Carpentry</li>
-            <li>Interior Finishing</li>
-          </ul>
+          <h3>Services</h3>
+
+          <a href="#services">Custom Decks</a>
+          <a href="#services">Garages</a>
+          <a href="#services">Renovations</a>
+          <a href="#services">Framing</a>
+          <a href="#services">Exterior Carpentry</a>
+          <a href="#services">Interior Finishing</a>
         </div>
 
         <div className="footer-column">
-          <h4>Contact</h4>
+          <h3>Contact</h3>
 
           <p>📞 819-209-2541</p>
 
@@ -39,34 +43,39 @@ export default function Footer() {
         </div>
 
         <div className="footer-column">
-          <h4>Follow Us</h4>
+          <h3>Follow Us</h3>
 
-          <p>
-            <a
-              href="https://www.instagram.com/mlbuildscarpentry"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Instagram
-            </a>
-          </p>
+          <a
+            href="https://www.instagram.com/mlbuildscarpentry"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📷 Instagram
+          </a>
 
-          <p>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Facebook
-            </a>
-          </p>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            👍 Facebook
+          </a>
+
+          <a
+            href="https://www.google.com/search?q=MLBUILDS+Carpentry"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ⭐ Google Business
+          </a>
         </div>
 
       </div>
 
       <div className="footer-bottom">
-        © {new Date().getFullYear()} MLBUILDS Carpentry • Built with pride. Made to last.
+        © {new Date().getFullYear()} MLBUILDS Carpentry • Quality Craftsmanship That Speaks for Itself.
       </div>
+
     </footer>
   );
 }
