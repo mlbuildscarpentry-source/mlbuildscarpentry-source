@@ -53,13 +53,13 @@ export default function Footer() {
             📷 Instagram
           </a>
 
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            👍 Facebook
-          </a>
+         <a
+  href="https://www.facebook.com/profile.php?id=61572682347568"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  👍 Facebook
+</a>
 
           <a
             href="https://www.google.com/search?q=MLBUILDS+Carpentry"
