@@ -545,10 +545,9 @@ PROJECTS
 
 .project-image-wrap {
   position: relative;
-  height: 260px;
+  height: 220px;
   overflow: hidden;
   border-radius: 18px;
-  background: #252525;
 }
 
 .project-image-wrap::after {
@@ -899,9 +898,12 @@ RESPONSIVE
   }
 
   .gallery-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
-  }
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
 
   .project-image-wrap {
     height: 155px;
@@ -909,8 +911,10 @@ RESPONSIVE
   }
 
   .project-card {
-    border-radius: 12px;
-  }
+  overflow: hidden;
+  border-radius: 18px;
+  background: transparent;
+}
 
   .project-label {
     left: 12px;
