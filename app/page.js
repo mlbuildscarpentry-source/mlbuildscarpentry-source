@@ -35,11 +35,10 @@ const services = [
 ];
 
 const trustItems = [
-  "Red Seal Carpenter",
-  "Fully Insured",
-  "Professional Craftsmanship",
-  "Free Estimates",
-  "Serving Ottawa & Surrounding Areas",
+  "✓ Red Seal Carpenter",
+  "✓ Fully Insured",
+  "✓ Free Estimates",
+  "✓ Serving Ottawa & Surrounding Areas",
 ];
 
 export default function Home() {
