@@ -212,10 +212,21 @@ export default function Home() {
             </div>
           </div>
 
-          <ContactForm />
-        </div>
-      </section>
-                <Footer />
+        ...
+      <ContactForm />
+
+      <div className="floating-actions">
+
+        <a href="tel:8192092541" className="floating-call">
+          📞 Call Now
+        </a>
+
+        <a href="#contact" className="floating-quote">
+          ✏️ Free Quote
+        </a>
+
+      </div>
+
     </main>
   );
 }
