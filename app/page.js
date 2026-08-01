@@ -166,22 +166,28 @@ export default function Home() {
         <Gallery />
       </section>
 
-      <section className="section testimonial-section" id="testimonial">
-        <div className="testimonial-card">
-          <div className="stars" aria-label="Five-star testimonial">
-            ★★★★★
-          </div>
+     <section className="section testimonial-section" id="testimonial">
+  <div className="testimonial-card">
+    <div className="stars" aria-label="Five-star testimonial">
+      ★★★★★
+    </div>
 
-          <blockquote>
-            “Marcel built our deck expansion and we are more than thrilled with
-            the finished product. His attention to detail is remarkable. We
-            highly recommend MLBUILDS for any projects. You will not be
-            disappointed!”
-          </blockquote>
+    <blockquote>
+      "Marcel built our deck expansion and we are more than thrilled with
+      the finished product. His attention to detail is remarkable. We
+      highly recommend MLBUILDS for any projects. You will not be
+      disappointed!"
+    </blockquote>
 
-          <p className="testimonial-author">— MLBUILDS client</p>
-        </div>
-      </section>
+    <div className="testimonial-author">
+      <strong>— Dennis Britt</strong>
+      <br />
+      <span>Deck Expansion • Ottawa, ON</span>
+      <br />
+      <span>★★★★★ Verified Client</span>
+    </div>
+  </div>
+</section>
 
       <section className="section contact-section" id="contact">
         <div className="contact-grid">
