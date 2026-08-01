@@ -1,4 +1,3 @@
-import { FaInstagram, FaFacebook, FaGoogle } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="footer">
@@ -51,7 +50,7 @@ export default function Footer() {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img src="/images/icons/facebook.png" alt="Facebook" width="22" height="22" />
+    <img src="/images/icons/facebook.png" alt="Facebook" width="26" height="26" />
     Facebook
   </a>
 
@@ -60,7 +59,7 @@ export default function Footer() {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img src="/images/icons/instagram.png" alt="Instagram" width="22" height="22" />
+    <img src="/images/icons/instagram.png" alt="Instagram" width="26" height="26" />
     Instagram
   </a>
 
@@ -69,7 +68,7 @@ export default function Footer() {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img src="/images/icons/google.png" alt="Google Reviews" width="22" height="22" />
+    <img src="/images/icons/google.png" alt="Google Reviews" width="26" height="26" />
     Google Reviews
   </a>
 </div>
