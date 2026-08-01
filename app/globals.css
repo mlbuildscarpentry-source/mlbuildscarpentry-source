@@ -367,28 +367,31 @@ TRUST STRIP
 }
 
 .trust-grid {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-top: 1px solid rgba(255,255,255,.12);
+  border-bottom: 1px solid rgba(255,255,255,.12);
 }
 
 .trust-item {
-  min-height: 92px;
-  padding: 20px;
+  flex: 1;
+  min-height: 70px;
+  padding: 18px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 11px;
-  border-right: 1px solid rgba(255, 255, 255, 0.12);
+  gap: 10px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .trust-item:last-child {
-  border-right: 0;
+  border-right: none;
 }
 
 .trust-mark {
