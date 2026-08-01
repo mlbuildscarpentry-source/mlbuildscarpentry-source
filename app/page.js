@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import ContactForm from "./components/ContactForm";
 
@@ -214,6 +215,7 @@ export default function Home() {
           <ContactForm />
         </div>
       </section>
+                <Footer />
     </main>
   );
 }
