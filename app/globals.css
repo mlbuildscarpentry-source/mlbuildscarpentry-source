@@ -864,11 +864,15 @@ RESPONSIVE
   }
 
   .hero {
-    min-height: 790px;
-    height: auto;
-    padding-top: 145px;
-    align-items: flex-end;
-  }
+  min-height: 820px;
+  height: auto;
+  padding: 135px 18px 60px;
+  align-items: flex-start;
+}
+
+.hero-inner {
+  padding-top: 0;
+}
 
   .hero-overlay {
     background: linear-gradient(
