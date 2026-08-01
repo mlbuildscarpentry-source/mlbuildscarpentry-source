@@ -158,7 +158,7 @@ height:100vh;
 
 display:flex;
 
-align-items:center;
+align-items:flex-start;
 
 padding:120px 7% 80px;
 
@@ -212,15 +212,12 @@ rgba(0,0,0,.18)
 }
 
 .hero-inner{
+    position: relative;
+    z-index: 2;
+    max-width: 720px;
+    color: white;
 
-position:relative;
-
-z-index:2;
-
-max-width:720px;
-
-color:white;
-
+    padding-top: 100px;
 }
 
 .eyebrow{
